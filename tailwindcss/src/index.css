@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header {
+  @apply bg-slate-200 flex items-center justify-between p-2;
+
+  ul {
+    @apply flex;
+
+    li {
+      @apply px-2;
+    }
+  }
+}
